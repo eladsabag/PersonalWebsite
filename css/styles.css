@@ -45,7 +45,7 @@ span {
 }
 
 hr {
-  margin: 20% 0;
+  margin: 10% 0;
 }
 
 /*** CLASS SELECTORS ***/
@@ -170,7 +170,7 @@ hr {
 }
 
 .part1 {
-  padding: 10%;
+  padding: 10px;
 }
 
 .communicate {
@@ -197,6 +197,16 @@ hr {
 
 .form {
   font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  background-color: #F0A500;
+  padding: 0;
+}
+
+.navbar-brand {
+  background-color: #F0A500;
+  padding: 0;
 }
 
 /*** ID SELECTORS ***/

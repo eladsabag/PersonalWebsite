@@ -24,6 +24,14 @@ h4 {
   background-color: #E6DDC4;
 }
 
+h6 {
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 900;
+  font-size: 50px;
+  margin-top: 5%;
+}
+
 p {
   line-height: 2;
   margin-top: 25px;
@@ -75,7 +83,7 @@ hr {
 
 .hello {
   margin-right: 40%;
-  padding-top: 10%;
+  padding-top: 15%;
 }
 
 .elad {
@@ -91,14 +99,14 @@ hr {
   position: absolute;
   width: 300px;
   left: 37%;
-  top: 17%;
+  top: 32%;
 }
 
 .computer {
   position: absolute;
   width: 250px;
   left: 60%;
-  top: 10%;
+  top: 25%;
 }
 
 .info {
@@ -118,6 +126,7 @@ hr {
   width: 20%;
   float: right;
   margin-left: 50px;
+  margin-top: 20px;
 }
 
 .sports {
@@ -185,7 +194,9 @@ hr {
 
 .contactme {
   text-decoration: overline;
-  font-family: 'Readex Pro', sans-serif;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 900;
+  font-size: 50px;
   margin-bottom: 10%;
   margin-left: 25%
 

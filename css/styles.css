@@ -97,11 +97,15 @@ hr {
 .right-arrow {
   width: 80%;
   margin-top: 20%;
+  margin-right: 15%;
+  float: right;
 }
 
 .computer {
   width: 300px;
   margin-top: 20%;
+  margin-right: 40%;
+  float: right;
 }
 
 .info {
@@ -217,4 +221,48 @@ hr {
 
 .airport {
   padding:9% 0;
+}
+
+@media (max-width: 1028px) {
+  .right-arrow {
+    margin-top: 35%;
+    margin-right: 15%;
+  }
+
+  .computer {
+    width: 250px;
+    margin-top: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-conatinar {
+    text-align: center;
+  }
+
+  .hello {
+    margin-top: 15%;
+    margin-left: 0%;
+  }
+
+  .elad {
+    margin-left: 0%;
+  }
+
+  .a-programmer {
+    padding-left: 0%;
+  }
+
+  .right-arrow {
+    width: 40%;
+    margin-right: 0%;
+    margin-top: 0%;
+    float: none;
+  }
+
+  .computer {
+    width: 200px;
+    margin: 0% 0% 5% 0%;;
+    float: none;
+  }
 }

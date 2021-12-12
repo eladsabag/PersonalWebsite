@@ -60,7 +60,6 @@ hr {
 /*** CLASS SELECTORS ***/
 .top-container {
   background-color: #F9CF93;
-  position: relative;
 }
 
 .middle-container {
@@ -83,31 +82,26 @@ hr {
 }
 
 .hello {
-  margin-right: 40%;
-  padding-top: 15%;
+  margin-top: 45%;
+  margin-left: 35%;
 }
 
 .elad {
-  margin-right: 40%;
+  margin-left: 35%;
 }
 
 .a-programmer {
-  margin-right: 40%;
-  padding-bottom: 10%;
+  padding-left: 35%;
 }
 
 .right-arrow {
-  position: absolute;
-  width: 300px;
-  left: 37%;
-  top: 32%;
+  width: 80%;
+  margin-top: 20%;
 }
 
 .computer {
-  position: absolute;
-  width: 250px;
-  left: 60%;
-  top: 25%;
+  width: 300px;
+  margin-top: 20%;
 }
 
 .info {

@@ -434,7 +434,7 @@ hr {
   background-color: #F9CF93;
   position: relative;
   border-radius: 6px;
-  opacity: 0.25;
+  opacity: 0.1;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */

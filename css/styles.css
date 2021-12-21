@@ -1,4 +1,4 @@
-/*** TAG SELECTORS ***/
+/***All Pages Settings***/
 body {
   font-size: 1.2em;
   text-align: center;
@@ -57,7 +57,18 @@ hr {
   margin: 10% 0;
 }
 
-/*** CLASS SELECTORS ***/
+.navbar {
+  background-color: #F0A500;
+  padding: 0;
+}
+
+.navbar-brand {
+  background-color: #F0A500;
+  padding: 0;
+}
+
+/*** Main Page ***/
+
 .top-container {
   background-color: #F9CF93;
 }
@@ -171,6 +182,52 @@ hr {
   text-decoration: none;
 }
 
+@media (max-width: 768px) {
+  .top-conatinar {
+    text-align: center;
+  }
+
+  .hello {
+    margin-top: 15%;
+    margin-left: 0%;
+  }
+
+  .elad {
+    margin-left: 0%;
+  }
+
+  .a-programmer {
+    padding-left: 0%;
+  }
+
+  .right-arrow {
+    width: 40%;
+    margin-right: 0%;
+    margin-top: 0%;
+    float: none;
+  }
+
+  .computer {
+    width: 200px;
+    margin: 0% 0% 5% 0%;;
+    float: none;
+  }
+}
+
+@media (max-width: 1028px) {
+  .right-arrow {
+    margin-top: 35%;
+    margin-right: 15%;
+  }
+
+  .computer {
+    width: 250px;
+    margin-top: 30%;
+  }
+}
+
+/*** Contact Page ***/
+
 .mydetails {
   width: 40%;
   margin: 100px auto 100px auto;
@@ -209,63 +266,11 @@ hr {
   font-family: 'Montserrat', sans-serif;
 }
 
-.navbar {
-  background-color: #F0A500;
-  padding: 0;
-}
-
-.navbar-brand {
-  background-color: #F0A500;
-  padding: 0;
-}
-
 .airport {
   padding-top: 9%;
 }
 
-@media (max-width: 1028px) {
-  .right-arrow {
-    margin-top: 35%;
-    margin-right: 15%;
-  }
-
-  .computer {
-    width: 250px;
-    margin-top: 30%;
-  }
-}
-
-@media (max-width: 768px) {
-  .top-conatinar {
-    text-align: center;
-  }
-
-  .hello {
-    margin-top: 15%;
-    margin-left: 0%;
-  }
-
-  .elad {
-    margin-left: 0%;
-  }
-
-  .a-programmer {
-    padding-left: 0%;
-  }
-
-  .right-arrow {
-    width: 40%;
-    margin-right: 0%;
-    margin-top: 0%;
-    float: none;
-  }
-
-  .computer {
-    width: 200px;
-    margin: 0% 0% 5% 0%;;
-    float: none;
-  }
-}
+/*** Projects Page ***/
 
 .my-projects {
   text-decoration: overline;
@@ -279,6 +284,12 @@ hr {
 .academy {
   padding: 0% 30%;
 }
+
+#projects-details {
+  margin: 0% 30%;
+}
+
+/*** About Page ***/
 
 .about-title {
   text-decoration: overline;
@@ -322,11 +333,6 @@ hr {
   position: relative;
   z-index: 1;
   width: 5%;
-}
-
-/*** TAG SELECTORS ***/
-#projects-details {
-  margin: 0% 30%;
 }
 
 /* Timeline */

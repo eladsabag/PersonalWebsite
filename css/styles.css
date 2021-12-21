@@ -472,4 +472,14 @@ hr {
   .left {
     right: 0%;
   }
+  
+    /* Make Start Button be on Center */
+  .start1 {
+    margin-left: 10%;
+  }
+
+  /* Make finish be on the end of the timeline */
+  .finish {
+    margin-right: 88%;
+  }
 }

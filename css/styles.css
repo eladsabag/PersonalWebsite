@@ -265,13 +265,9 @@ hr {
 }
 
 .contactme {
-  text-decoration: overline;
-  font-family: 'Abril Fatface', cursive;
-  font-weight: 900;
-  font-size: 50px;
+  text-decoration: none;
+  font-family: 'Shizuru', cursive;
   margin-bottom: 10%;
-  margin-left: 25%
-
 }
 
 .list {
@@ -289,7 +285,8 @@ hr {
 /*** Projects Page ***/
 
 .my-projects {
-  text-decoration: overline;
+  text-decoration: none;
+  font-family: 'Shizuru', cursive;
   margin-top: 20%;
 }
 

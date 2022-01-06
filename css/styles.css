@@ -300,14 +300,14 @@ hr {
 }
 
 #personal {
-  background-color: #F0A500; 
+  background-color: #F0A500;
 }
 
 #projects-details {
   margin: 0% 30%;
 }
 
-.olympic, .battle, .store, .airport, .welldesigned, .tindog, .website, .drumkit, .dicegame {
+.olympic, .battle, .store, .airport, .welldesigned, .tindog, .website, .drumkit, .simongame {
   width: 65%;
   height: 300px;
 }

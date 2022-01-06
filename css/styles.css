@@ -21,7 +21,7 @@ h3 {
 h4 {
   font-family: 'Abril Fatface', cursive;
   margin-top: 10%;
-  background-color: #F0A500;
+  background-color: #E6DDC4;
 }
 
 h6 {
@@ -296,6 +296,11 @@ hr {
 
 .academy {
   padding: 0% 30%;
+  background-color: #F0A500;
+}
+
+#personal {
+  background-color: #F0A500; 
 }
 
 #projects-details {

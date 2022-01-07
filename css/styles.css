@@ -1,7 +1,6 @@
 /***All Pages Settings***/
 body {
   font-size: 1.2em;
-  text-align: center;
 }
 
 h1 {
@@ -82,6 +81,7 @@ hr {
 .bottom-container {
   background-color: #F0A500;
   padding: 50px 0 20px;
+  text-align: center;
 }
 
 .about {
@@ -148,6 +148,7 @@ hr {
 .contact-me {
   padding: 5%;
   background-color: #F9CF93;
+  text-align: center;
 }
 
 .hope {
@@ -187,16 +188,17 @@ hr {
     text-align: center;
   }
 
-  .hello {
-    margin: 15% 25% auto 0%;
+  h2.hello {
+    margin-top: 15%;
+    margin-left: 45%;
   }
 
   h1.elad {
-    margin-left: 5%;
+    margin-left: 40%;
   }
 
   h2.a-programmer {
-    padding-left: 5%;
+    margin-left: 10%;
   }
 
   img.right-arrow {
@@ -204,11 +206,11 @@ hr {
     margin-right: 0%;
     margin-top: 0%;
     float: none;
+    margin-left: 32%;
   }
 
   img.computer {
-    /* width: 200px; */
-    margin: 0% 0% 5% auto;
+    margin: 0% 0% 5% 37%;
     float: none;
   }
 }
@@ -305,6 +307,7 @@ hr {
 
 #projects-details {
   margin: 0% 30%;
+  text-align: center;
 }
 
 .olympic, .battle, .store, .airport, .welldesigned, .tindog, .website, .drumkit, .simongame {
@@ -361,6 +364,10 @@ hr {
 .pressed {
   box-shadow: 0 3px 4px 0 #DBEDF3;
   opacity: 0.5;
+}
+
+#about-me {
+  text-align: center;
 }
 
 /* Timeline */

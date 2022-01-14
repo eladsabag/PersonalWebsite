@@ -1,29 +1,37 @@
+// jshint esversion: 6
+
 // Start,Next,Finish Buttons Opcaity
 
-document.querySelectorAll(".start")[0].addEventListener("click", () => {changeOpacity(".content",0)});
-document.querySelectorAll(".start")[1].addEventListener("click", () => {changeOpacity(".content",1)});
-document.querySelectorAll(".start")[2].addEventListener("click", () => {changeOpacity(".content",2)});
-document.querySelectorAll(".start")[3].addEventListener("click", () => {changeOpacity(".content",3)});
-document.querySelectorAll(".start")[4].addEventListener("click", () => {changeOpacity(".finish",0)});
+var flow;
 
-var flow = 0;
-
-function changeOpacity(name,index) {
-  if(index<=flow) {
-    flow+=1;
-    document.querySelectorAll(name)[index].style.opacity = 1;
-  } else {
-    alert("Can't break flow!");
+$(document).ready(function() {
+  for(var i = 0 ; i < 5 ; i++) {
+    if(i > 0) {
+      $(".start" + i).hide();
+    }
   }
-}
+  flow = 0;
+});
+
+$(".start").click(function() {
+  if(flow == 4) {
+    $(".finish").css("opacity","1");
+  }
+  else {
+    $(".content" + flow).css("opacity","1");
+  }
+  $(".start" + flow).attr("disabled","true");
+  flow+=1;
+  $(".start" + flow).show();
+});
+
 
 // Start,Next,Finish Buttons Sounds
 
-for (var i = 0; i < document.querySelectorAll(".start").length ; i++) {
-  document.querySelectorAll(".start")[i].addEventListener("click", function() {
-      makeSound(this.innerHTML);
-  });
-}
+$(".start").click(function() {
+  makeSound(this.innerHTML);
+});
+
 
 function makeSound(key) {
   switch (key) {

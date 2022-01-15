@@ -5,8 +5,8 @@
 var flow;
 
 $(document).ready(function() {
-  for(var i = 0 ; i < 5 ; i++) {
-    if(i > 0) {
+  for (var i = 0; i < 5; i++) {
+    if (i > 0) {
       $(".start" + i).hide();
     }
   }
@@ -14,14 +14,13 @@ $(document).ready(function() {
 });
 
 $(".start").click(function() {
-  if(flow == 4) {
-    $(".finish").css("opacity","1");
+  if (flow == 4) {
+    $(".finish").animate({"opacity": "1"});
+  } else {
+    $(".content" + flow).animate({"opacity":"1"});
   }
-  else {
-    $(".content" + flow).css("opacity","1");
-  }
-  $(".start" + flow).attr("disabled","true");
-  flow+=1;
+  $(".start" + flow).attr("disabled", "true");
+  flow += 1;
   $(".start" + flow).show();
 });
 
@@ -34,20 +33,18 @@ $(".start").click(function() {
 
 
 function makeSound(key) {
+  var sound;
   switch (key) {
     case "Start":
-    var start = new Audio("sounds/jeff.mp3");
-    start.play();
+      sound = new Audio("sounds/jeff.mp3").play();
       break;
     case "Next":
-    var next = new Audio("sounds/jeff.mp3");
-    next.play();
+      sound = new Audio("sounds/jeff.mp3").play();
       break;
     case "Finish":
-    var finish = new Audio("sounds/johncena.mp3");
-    finish.play();
+      sound = new Audio("sounds/johncena.mp3").play();
       break;
     default:
-      console.log("Error");
+      alert("Error");
   }
 }
